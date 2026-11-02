@@ -15,11 +15,19 @@ Identified missing values in Order Date, Customer  Name, Region, Product, Unit P
 
 Unit Price = Sales / Quantity
 
+ **if [UnitPrice]=null then [Sales]/[Quantity] else [UnitPrice]**
+
 Sales = Quantity * Unit Price 
+
+**if [Sales]=null then [Unit Price 1]*[Quantity] else [Sales]**
 
 Cost = Sales – Profit 
 
+**if [Cost]=null then [Sales 2]-[Profit] else [Cost]**
+
 Profit = Sales - Cost
+
+**if [Profit]=null then [Sales 2]-[Cost 1] else [Profit]**
 
 ii) Removing Duplicate Rows
 
