@@ -59,17 +59,17 @@ Created a Clustered Column Chart to identify the top 5 products based on the num
 
 Applied Top N Filter:
 
-1.	Opened the Filters
+-	Opened the Filters
    
-3.	Selected the Product field.
+-	Selected the Product field.
 
-4.	Changed the filter type to Top N.
+-	Changed the filter type to Top N.
 
-5.	Selected Top 5 under Show Items.
+-	Selected Top 5 under Show Items.
 
-6.	Added Count of Order ID to the By Value field.
+-	Added Count of Order ID to the By Value field.
 
-7.	Clicked Apply Filter.
+-	Clicked Apply Filter.
 
 c) Line Chart – Profit Trend Over Time
 Created a Line Chart to analyse the profit trend over time.
